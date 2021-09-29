@@ -1,0 +1,198 @@
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 90%;
+  }
+  .inner-container {
+    max-width: 90%;
+  }
+
+  .paragraph {
+    width: 398px;
+  }
+
+  /* HOME PAGE ======================================= */
+  #hero {
+    background-size: 1284px 854px;
+    background-position: left bottom;
+  }
+
+  .hero__title {
+    width: 329px;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 48px;
+  }
+  /* /HOME PAGE ======================================= */
+
+
+  /* COLLECTION PAGE ======================================= */
+
+  #collection {
+    height: 900px;
+  }
+
+  .products {
+    position: relative;
+    top: -40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .products__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .product__image {
+    position: relative;
+    width: 255px;
+  }
+
+
+  .product__title {
+    margin: 0;
+    text-align: left;
+    font-size: 34px;
+    line-height: 32px;
+  }
+
+  .product__paragraph {
+    margin-top: 24px;
+    width: 355px;
+    text-align: left;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  /* /COLLECTION PAGE ======================================= */
+  
+  /* CHOOSE SECTION */
+  .choose__wrap {
+    height: 650px;
+  }
+
+  .choose-card {
+    width: 90%;
+    height: 180px;
+  }
+
+  .choose-card:nth-child(2) {
+    margin: 24px 0;
+  }
+
+  .choose-card__text {
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 30%;
+    text-align: left;
+  }
+
+  .choose-card__title {
+    text-align: left;
+  }
+
+  .choose-card__title::before {
+    top: 0;
+    left: -20%;
+  }
+  /* /CHOOSE SECTION */
+  
+}
+
+@media (max-width: 767px) {
+  
+  .hero__filter {
+    display: unset;
+  }
+
+  .header__logo {
+    width: 200px;
+  }
+
+  .header__menu-wrap {
+    display: unset;
+  }
+
+  .header__nav {
+    display: none;
+  }
+
+  /* COLLECTION SECTION */
+
+  #collection {
+    width: 100vw;
+    height: 1500px;
+  }
+
+  .products__item {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .product__title {
+    text-align: center;
+    width: 100%;
+
+  }
+
+  .product__paragraph {
+    position: relative;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+    width: 282px;
+  }
+  /* /COLLECTION SECTION */
+
+}
+
+/* ##########################################################3 */
+
+
+
+@media (max-width: 576px) {
+
+  .paragraph {
+    width: 398px;
+  }
+  /* HOME PAGE ======================================= */
+
+  /* HEADER */
+  .hero__filter {
+    display: unset;
+  }
+
+  .header__logo {
+    width: 200px;
+  }
+
+  .header__menu-wrap {
+    display: unset;
+  }
+
+  .header__nav {
+    display: none;
+  }
+  /* /HEADER */
+
+  /* HERO SECTION */
+  #hero {
+    background-position-x: center;
+    background-position-x: -200px;
+    background-position-y: bottom;
+  }
+  /* HERO SECTION */
+
+
+  /* COLLECTION SECTION */
+
+  /* /COLLECTION SECTION */
+  
+  /* /HOME PAGE ======================================= */
+}

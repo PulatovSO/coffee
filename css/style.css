@@ -1,0 +1,271 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.paragraph {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+
+/* HEADER */
+#header {
+  padding: 44px 0;
+}
+
+.header__logo{
+  width: 236px;
+  height: 26px;
+}
+
+.nav__list-item {
+  margin-left: 32px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav__list-item:hover {
+  color: #333D4B;
+}
+
+.header__menu-wrap {
+  display: none;
+}
+
+/* /HEADER */
+
+
+/* HERO SECTION */
+#hero {
+  position: relative;
+  background-image: url(../img/hero-bg.jpg);
+  background-size: 1947px 1298px;
+  background-repeat: no-repeat;
+  background-position: left -550px;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.hero__filter {
+  display: none;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.452);
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  z-index: 0;
+}
+
+.hero__wrap {
+  position: relative;
+  padding-top: 111px;
+  z-index: 1;
+}
+
+.hero__title {
+  width: 493px;
+  font-family: Fraunces;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FEFCF7;
+}
+
+.hero__paragraph {
+  margin-top: 32px;
+  width: 440px;
+}
+
+.hero__btn {
+  margin-top: 71px;
+  display: inline-block;
+  padding: 15px 32px;
+  font-family: Fraunces;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FEFCF7;
+  background: #0E8784;
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
+}
+
+.hero__btn:hover {
+  background: #66D2CF;
+}
+
+/* /HERO SECTION */
+
+
+/* COLLECTION SECTION */
+#collection {
+  margin-top: 146px;
+  width: 100%;
+}
+
+.collection__wrap {
+  padding-top: 126px;
+  width: 1111px;
+  height: 525px;
+  background-image: url(../img/collectopn-bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.product__title {
+  margin-top: 71px;
+  margin-bottom: 24px;
+  width: 255px;
+  font-family: Fraunces;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #333D4B;
+}
+
+.product__paragraph {
+  width: 255px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #333D4B;
+}
+/* /COLLECTION SECTION */
+
+
+/* CHOOSE SECTION */
+#choose {
+  margin-top: 188px;
+}
+
+.choose__wrap {
+  padding-top: 110px;
+  height: 600px;
+  background: #2a2e3a;
+  border-radius: 10px;
+}
+
+.choose__text-wrap {
+  display: flex;
+  flex-direction: column; 
+}
+
+.choose__title {
+  font-family: Fraunces;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #fff;
+}
+
+.choose__paragraph {
+  margin-top: 32px;
+  text-align: center;
+  width: 540px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.choose__cards {
+  margin-top: 86px;
+}
+
+.choose-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  height: 382px;
+  background: #0E8784;
+  border-radius: 8px;
+  color: #FEFCF7;
+}
+
+.choose-card:nth-child(2) {
+  margin: 0 30px;
+}
+
+.choose-card__text {
+  position: relative;
+  top: 200px;
+}
+
+.choose-card__title {
+  position: relative;
+  font-family: Fraunces;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.choose-card__paragraph {
+  margin-top: 24px;
+  width: 255px;
+}
+
+.choose-card__title::before {
+  content: '';
+  position: absolute;
+  top: -140px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-block;
+  width: 72px;
+  height: 72px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.choose-card:nth-child(1) .choose-card__title::before {
+  background-image: url(../img/card1.png);
+}
+.choose-card:nth-child(2) .choose-card__title::before {
+  background-image: url(../img/card2.png);
+}
+.choose-card:nth-child(3) .choose-card__title::before {
+  background-image: url(../img/card3.png);
+}
+
+
+
+/* /CHOOSE SECTION */
