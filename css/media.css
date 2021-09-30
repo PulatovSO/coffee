@@ -150,6 +150,48 @@
   }
   /* /COLLECTION SECTION */
 
+
+  /* CHOOSE SECTION */
+  #choose {
+    height: 1550px;
+  }
+
+  .choose__paragraph {
+    width: 80%;
+  }
+
+  .choose__wrap {
+    height: 62%;
+  }
+
+  .choose-card {
+    width: 90%;
+    height: 382px;
+  }
+
+  .choose-card__text {
+    margin-left: 0;
+    margin-top: 100px;
+    text-align: center;
+    width: 80%;
+  }
+
+  .choose-card__title {
+    text-align: center;
+  }
+
+  .choose-card__title::before {
+    top: -140px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .choose-card__paragraph {
+    width: 100%;
+  }
+
+  /* /CHOOSE SECTION */
+
 }
 
 /* ##########################################################3 */
@@ -189,10 +231,15 @@
   }
   /* HERO SECTION */
 
+  /* CHOOSE SECTION */
+  .choose-card__paragraph {
+    width: 100%;
+  }
 
-  /* COLLECTION SECTION */
-
-  /* /COLLECTION SECTION */
+  .choose__wrap {
+    height: 70%;
+  }
+  /* /CHOOSE SECTION */
   
   /* /HOME PAGE ======================================= */
 }
